@@ -1,0 +1,71 @@
+.NavBar{
+    height: 100vh;
+    .nav{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        .profile{
+            width: 100%;
+            text-align: center;
+            margin-top: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid rgba(153, 149, 149,.8);
+            img{
+                width: 67%;
+                height: 96%;
+                border: 2px solid rgba(5, 203, 253,.4);
+                border-radius: 100%;
+                object-fit: contain;
+                background: rgb(112, 5, 32);
+
+            }
+        }
+        .nav-items{
+            width: 100%;
+            text-align: center;
+            .nav-item{
+               
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    display: block;
+                    padding: .5rem 0;
+                    margin: .5rem 0;
+                    position: relative;
+                    color: rgb(220, 223, 226);
+                    transition: all .2s linear;
+                    font-weight: bold;
+
+                    &:hover{
+                        background: rgba(241, 237, 237,.05);
+                        border: 1px solid rgba(241, 237, 237,.9);
+                        color: rgb(200, 204, 207);
+                    }
+                }
+                .active{
+                   background: rgba(252, 249, 249, 0.8); 
+                   border: 1px solid rgb(70, 69, 69);
+                   color:  rgb(19, 18, 18);
+                   font-weight: bolder;
+                  
+
+                }
+            }
+        }
+        .footer{
+            width: 100%;
+            border-top:1px solid rgba(153, 149, 149,.8) ;
+            padding: 1rem 0;
+            text-align: center;
+            font-size: .8rem;
+            margin-bottom: .5rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(12, 142, 202);
+        }
+
+    }
+    
+}

@@ -1,0 +1,102 @@
+.App {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.App .sidebar {
+  width: 15%;
+  background: rgba(5, 5, 5, 0.98);
+  min-height: 97vh;
+  position: fixed;
+  z-index: 11;
+  border-right: 1px solid #d4d1d1;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+@media screen and (max-width: 1200px) {
+  .App .sidebar {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .App .sidebar {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .App .sidebar {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .App .sidebar {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .App .nav-toggle {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+.App .nav-btn {
+  position: fixed;
+  z-index: 10;
+  height: 2.1rem;
+  width: 2.7rem;
+  right: 20px;
+  top: 20px;
+  display: none;
+}
+
+.App .nav-btn .line {
+  width: 100%;
+  height: .4rem;
+  background: #faf7f7;
+  border-radius: 2px;
+}
+
+.App .nav-btn .line:nth-child(2) {
+  margin: .4rem 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .App .nav-btn {
+    display: block;
+  }
+}
+
+.App .main-content {
+  width: 85%;
+  background: rgba(10, 10, 10, 0.952);
+  margin-left: 15%;
+  min-height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  position: relative;
+}
+
+@media screen and (max-width: 1200px) {
+  .App .main-content {
+    margin-left: 20%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .App .main-content {
+    margin: 0;
+  }
+}
+/*# sourceMappingURL=layout.css.map */

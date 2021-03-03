@@ -1,0 +1,123 @@
+.ContactPage{
+    width: 100%;
+    min-height: 100vh;
+    padding:2rem 6rem;
+    
+    .c-title{
+        display: block;
+        width: 100%;
+        background: #000;
+    }
+
+    .contact-section{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 5rem;
+        padding: 2rem 3rem;
+        align-items: center;
+        width: 100%;
+        @media screen and (max-width:1200px){
+            column-gap: 2.5rem;
+            padding: 2rem 1rem;
+        }
+
+        @media screen and (max-width:900px){
+            grid-template-columns: 1fr;
+            font-size: 130%;
+            padding: 2rem 0rem;
+         }
+        .map-section{
+            background: rgba(71, 70, 70, 0.685);
+            padding: 1rem;
+            @media screen and (max-width:900px){
+                margin-bottom: 5rem;
+             }
+             iframe{
+                @media screen and (max-width:500px){
+                    height: 280px;
+                 }
+             }
+            
+        }
+        .contact-details{
+
+            .contact-item{
+                margin-bottom: 1rem;
+                background: rgba(68, 67, 67, 0.356);
+                padding:1rem;
+                border: 1px solid rgb(87, 83, 83);
+                @media screen and (max-width:370px){
+                    padding: .5rem .25rem;
+                 }
+                
+                .contact{
+                   display: flex;
+                   align-items: center;
+                    img{
+                        width:5rem;
+                        height:10.5vh;
+                        padding: .3rem .5rem;
+                        border: 1px solid rgb(88, 83, 83);
+                        opacity: .6;
+                        background: rgba(228, 223, 223, 0.295);
+                        @media screen and (max-width:370px){
+                            width: 4rem;
+                            height: 9.5vh;
+                         }
+                         @media screen and (max-width:340px){
+                            width: 2.7rem;
+                            height: 5.5vh;
+                         }
+                         @media screen and (max-width:370px){
+                            width: 4rem;
+                            height: 9.5vh;
+                         }
+                    }
+                    .right-details{
+                        margin-left: 2rem;
+                        color:rgb(134, 134, 132);
+
+                        @media screen and (max-width:1200px){
+                            margin-left: 1rem;
+                        }
+
+
+                        @media screen and (max-width:370px){
+                            margin-left: .5rem;
+                         }
+                         @media screen and (max-width:370px){
+                            font-size: 80%;
+                         }
+                        h6{
+                            color: rgb(223, 219, 215);
+                        }
+                        p{
+                            font-size: .9rem;
+                            letter-spacing: 1px;
+                            @media screen and (max-width:370px){
+                                letter-spacing: 0;
+                             }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width:1350px){
+        padding: 2rem 4rem;
+        font-size: 95%;
+     }
+     @media screen and (max-width:1200px){
+        padding: 2rem;
+        font-size: 90%;
+     }
+     @media screen and (max-width:1000px){
+        padding:.01rem 3rem;
+     }
+     @media screen and (max-width:800px){
+        padding:.01rem 1.5rem;
+     }
+     @media screen and (max-width:700px){
+        padding: 0 1rem;
+     }
+}

@@ -1,0 +1,84 @@
+.NavBar {
+  height: 100vh;
+}
+
+.NavBar .nav {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.NavBar .nav .profile {
+  width: 100%;
+  text-align: center;
+  margin-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(153, 149, 149, 0.8);
+}
+
+.NavBar .nav .profile img {
+  width: 67%;
+  height: 96%;
+  border: 2px solid rgba(5, 203, 253, 0.4);
+  border-radius: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background: #700520;
+}
+
+.NavBar .nav .nav-items {
+  width: 100%;
+  text-align: center;
+}
+
+.NavBar .nav .nav-items .nav-item {
+  list-style: none;
+}
+
+.NavBar .nav .nav-items .nav-item a {
+  text-decoration: none;
+  display: block;
+  padding: .5rem 0;
+  margin: .5rem 0;
+  position: relative;
+  color: #dcdfe2;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+  font-weight: bold;
+}
+
+.NavBar .nav .nav-items .nav-item a:hover {
+  background: rgba(241, 237, 237, 0.05);
+  border: 1px solid rgba(241, 237, 237, 0.9);
+  color: #c8cccf;
+}
+
+.NavBar .nav .nav-items .nav-item .active {
+  background: rgba(252, 249, 249, 0.8);
+  border: 1px solid #464545;
+  color: #131212;
+  font-weight: bolder;
+}
+
+.NavBar .nav .footer {
+  width: 100%;
+  border-top: 1px solid rgba(153, 149, 149, 0.8);
+  padding: 1rem 0;
+  text-align: center;
+  font-size: .8rem;
+  margin-bottom: .5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #0c8eca;
+}
+/*# sourceMappingURL=navbar.css.map */

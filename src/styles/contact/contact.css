@@ -1,0 +1,182 @@
+.ContactPage {
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem 6rem;
+}
+
+.ContactPage .c-title {
+  display: block;
+  width: 100%;
+  background: #000;
+}
+
+.ContactPage .contact-section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -webkit-column-gap: 5rem;
+          column-gap: 5rem;
+  padding: 2rem 3rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .ContactPage .contact-section {
+    -webkit-column-gap: 2.5rem;
+            column-gap: 2.5rem;
+    padding: 2rem 1rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .ContactPage .contact-section {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    font-size: 130%;
+    padding: 2rem 0rem;
+  }
+}
+
+.ContactPage .contact-section .map-section {
+  background: rgba(71, 70, 70, 0.685);
+  padding: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+  .ContactPage .contact-section .map-section {
+    margin-bottom: 5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .ContactPage .contact-section .map-section iframe {
+    height: 280px;
+  }
+}
+
+.ContactPage .contact-section .contact-details .contact-item {
+  margin-bottom: 1rem;
+  background: rgba(68, 67, 67, 0.356);
+  padding: 1rem;
+  border: 1px solid #575353;
+}
+
+@media screen and (max-width: 370px) {
+  .ContactPage .contact-section .contact-details .contact-item {
+    padding: .5rem .25rem;
+  }
+}
+
+.ContactPage .contact-section .contact-details .contact-item .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ContactPage .contact-section .contact-details .contact-item .contact img {
+  width: 5rem;
+  height: 10.5vh;
+  padding: .3rem .5rem;
+  border: 1px solid #585353;
+  opacity: .6;
+  background: rgba(228, 223, 223, 0.295);
+}
+
+@media screen and (max-width: 370px) {
+  .ContactPage .contact-section .contact-details .contact-item .contact img {
+    width: 4rem;
+    height: 9.5vh;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .ContactPage .contact-section .contact-details .contact-item .contact img {
+    width: 2.7rem;
+    height: 5.5vh;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .ContactPage .contact-section .contact-details .contact-item .contact img {
+    width: 4rem;
+    height: 9.5vh;
+  }
+}
+
+.ContactPage .contact-section .contact-details .contact-item .contact .right-details {
+  margin-left: 2rem;
+  color: #868684;
+}
+
+@media screen and (max-width: 1200px) {
+  .ContactPage .contact-section .contact-details .contact-item .contact .right-details {
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .ContactPage .contact-section .contact-details .contact-item .contact .right-details {
+    margin-left: .5rem;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .ContactPage .contact-section .contact-details .contact-item .contact .right-details {
+    font-size: 80%;
+  }
+}
+
+.ContactPage .contact-section .contact-details .contact-item .contact .right-details h6 {
+  color: #dfdbd7;
+}
+
+.ContactPage .contact-section .contact-details .contact-item .contact .right-details p {
+  font-size: .9rem;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 370px) {
+  .ContactPage .contact-section .contact-details .contact-item .contact .right-details p {
+    letter-spacing: 0;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .ContactPage {
+    padding: 2rem 4rem;
+    font-size: 95%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .ContactPage {
+    padding: 2rem;
+    font-size: 90%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .ContactPage {
+    padding: .01rem 3rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .ContactPage {
+    padding: .01rem 1.5rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .ContactPage {
+    padding: 0 1rem;
+  }
+}
+/*# sourceMappingURL=contact.css.map */

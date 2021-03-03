@@ -1,0 +1,79 @@
+.AboutPage {
+  width: 100%;
+  min-height: 100vh;
+  background: #000;
+  padding: 2rem 5rem;
+}
+
+.AboutPage h1 {
+  color: rgba(240, 248, 255, 0.596);
+}
+
+.AboutPage .skill-container {
+  display: -ms-grid;
+  display: grid;
+  padding: 1rem 2rem;
+  margin-bottom: 5rem;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem 4rem;
+}
+
+@media screen and (max-width: 500px) {
+  .AboutPage .skill-container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    font-size: 130%;
+  }
+}
+
+.AboutPage .service-container {
+  display: -ms-grid;
+  display: grid;
+  padding: 1rem 2rem;
+  margin-bottom: 5rem;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem 4rem;
+}
+
+@media screen and (max-width: 500px) {
+  .AboutPage .service-container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    font-size: 130%;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .AboutPage {
+    padding: 2rem 4rem;
+    font-size: 95%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .AboutPage {
+    padding: 2rem;
+    font-size: 90%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .AboutPage {
+    padding: .01rem 3rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .AboutPage {
+    padding: .01rem 1.5rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .AboutPage {
+    padding: .01rem 1rem;
+  }
+}
+/*# sourceMappingURL=about.css.map */

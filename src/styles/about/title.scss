@@ -1,0 +1,30 @@
+.Title{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    position: relative;
+    margin: 1.5rem 0;
+    letter-spacing: 3px;
+    color: rgb(181, 206, 228);
+    text-shadow: .2rem .2rem .2rem rgba(211, 9, 87, 0.8);
+
+    // &::before{
+    //     content: "";
+    //     bottom: 0;
+    //     position: absolute;
+    //     left: 0;
+    //     background: rgba(80, 79, 79, 0.973);
+    //     width: 15rem;
+    //     height: .3rem;
+    //     border-radius: 50px;
+    // }
+    // &::after{
+    //     content: "";
+    //     bottom: 0;
+    //     position: absolute;
+    //     left: 0;
+    //     background: rgb(233, 223, 223);
+    //     width: 7rem;
+    //     height: .3rem;
+    //     border-radius: 50px;
+    // }
+    }

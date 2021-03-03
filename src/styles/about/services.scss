@@ -1,0 +1,25 @@
+.Service{
+    
+    .service-img{
+        width: 100%;
+        height:200px;
+        margin-bottom: 1rem;
+        @media screen and (max-width:600px){
+            height: 150px;
+         }
+         @media screen and (max-width:500px){
+            height: 220px;
+         }
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit:cover;
+        }
+    }
+    .service-details{
+        text-align: center;
+        width:100%;
+        color: rgb(138, 135, 133);
+        font-size: 1.2rem;
+    }
+}
